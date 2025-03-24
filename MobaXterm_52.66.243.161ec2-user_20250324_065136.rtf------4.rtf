@@ -1,0 +1,871 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern Consolas;}{\f1\fmodern\fcharset0 Consolas;}{\f2\fnil\fcharset129 Courier New;}}
+{\colortbl ;\red20\green20\blue20;\red142\green142\blue142;\red16\green158\blue98;\red148\green146\blue12;\red170\green51\blue170;\red170\green64\blue64;\red56\green136\blue159;\red63\green143\blue116;\red94\green147\blue162;\red12\green100\blue126;\red9\green118\blue72;\red85\green85\blue85;\red18\green18\blue18;\red245\green245\blue245;\red170\green85\blue85;\red92\green92\blue92;\red126\green126\blue12;\red18\green124\blue155;\red143\green143\blue63;}
+\viewkind4\uc1\pard\f0\fs20 Authenticating with public key "Imported-Openssh-Key"\cf1\highlight2 
+\par \cf0\highlight0     \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                 \cf3\f1\bullet  MobaXterm Personal Edition v25.1 \bullet\cf0\f0                  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?               \cf4 (SSH client, X server and network tools)\cf0                \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u11166? SSH session to \cf5 ec2-user@52.66.243.161                    \cf0           \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  Direct SSH      :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH compression :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH-browser     :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  X11-forwarding  :  \cf6\f0\u10007?\cf0   (disabled or not supported by server)      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u11166? For more info, ctrl+click on \cf7\ul help\cf0\ulnone  or visit our \cf7\ul website\cf0\ulnone .            \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par 
+\par \cf0\highlight0    ,     #_\cf1\highlight2 
+\par \cf0\highlight0    ~\\_  ####_        Amazon Linux 2023\cf1\highlight2 
+\par \cf0\highlight0   ~~  \\_#####\\\cf1\highlight2 
+\par \cf0\highlight0   ~~     \\###|\cf1\highlight2 
+\par \cf0\highlight0   ~~       \\#/ ___   https://aws.amazon.com/linux/amazon-linux-2023\cf1\highlight2 
+\par \cf0\highlight0    ~~       V~' '->\cf1\highlight2 
+\par \cf0\highlight0     ~~~         /\cf1\highlight2 
+\par \cf0\highlight0       ~~._.   _/\cf1\highlight2 
+\par \cf0\highlight0          _/ _/\cf1\highlight2 
+\par \cf0\highlight0        _/m/'\cf1\highlight2 
+\par \cf0\highlight0 Last login: Sun Mar 23 23:18:43 2025 from 157.48.204.105\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 ~]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 ~]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 ~]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 ~]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 ~]$ cd terraform-project/\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum update -y\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 3:34:16 ago on Sun Mar 23 20:39:10 2025.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 Nothing to do.\cf1\highlight2 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install -y gcc-c++ make\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 3:34:27 ago on Sun Mar 23 20:39:10 2025.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                                  Architecture                 Version                                        Repository                         Size\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gcc-c++                                 \cf0  x86_64                       11.4.1-2.amzn2023.0.2                          amazonlinux                        12 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 make                                    \cf0  x86_64                       1:4.3-5.amzn2023.0.2                           amazonlinux                       534 k\cf1\highlight2 
+\par \cf0\highlight0 Installing dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 annobin-docs                            \cf0  noarch                       10.93-1.amzn2023.0.1                           amazonlinux                        92 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 annobin-plugin-gcc                      \cf0  x86_64                       10.93-1.amzn2023.0.1                           amazonlinux                       887 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 cpp                                     \cf0  x86_64                       11.4.1-2.amzn2023.0.2                          amazonlinux                        10 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gc                                      \cf0  x86_64                       8.0.4-5.amzn2023.0.2                           amazonlinux                       105 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gcc                                     \cf0  x86_64                       11.4.1-2.amzn2023.0.2                          amazonlinux                        32 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 glibc-devel                             \cf0  x86_64                       2.34-117.amzn2023.0.1                          amazonlinux                        33 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 glibc-headers-x86                       \cf0  noarch                       2.34-117.amzn2023.0.1                          amazonlinux                       434 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 guile22                                 \cf0  x86_64                       2.2.7-2.amzn2023.0.3                           amazonlinux                       6.4 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 kernel-headers                          \cf0  x86_64                       6.1.129-138.220.amzn2023                       amazonlinux                       1.4 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libmpc                                  \cf0  x86_64                       1.2.1-2.amzn2023.0.2                           amazonlinux                        62 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libstdc++-devel                         \cf0  x86_64                       11.4.1-2.amzn2023.0.2                          amazonlinux                       2.2 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libtool-ltdl                            \cf0  x86_64                       2.4.7-1.amzn2023.0.3                           amazonlinux                        38 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libxcrypt-devel                         \cf0  x86_64                       4.4.33-7.amzn2023                              amazonlinux                        32 k\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  15 Packages\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 67 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 211 M\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 (1/15): annobin-docs-10.93-1.amzn2023.0.1.noarch.rpm                                                                          2.3 MB/s |  92 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (2/15): annobin-plugin-gcc-10.93-1.amzn2023.0.1.x86_64.rpm                                                                     18 MB/s | 887 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (3/15): gc-8.0.4-5.amzn2023.0.2.x86_64.rpm                                                                                    5.0 MB/s | 105 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (4/15): cpp-11.4.1-2.amzn2023.0.2.x86_64.rpm                                                                                   34 MB/s |  10 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (5/15): glibc-devel-2.34-117.amzn2023.0.1.x86_64.rpm                                                                          2.0 MB/s |  33 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (6/15): glibc-headers-x86-2.34-117.amzn2023.0.1.noarch.rpm                                                                     13 MB/s | 434 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (7/15): gcc-c++-11.4.1-2.amzn2023.0.2.x86_64.rpm                                                                               31 MB/s |  12 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (8/15): kernel-headers-6.1.129-138.220.amzn2023.x86_64.rpm                                                                     27 MB/s | 1.4 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (9/15): libmpc-1.2.1-2.amzn2023.0.2.x86_64.rpm                                                                                3.4 MB/s |  62 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (10/15): guile22-2.2.7-2.amzn2023.0.3.x86_64.rpm                                                                               28 MB/s | 6.4 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (11/15): libtool-ltdl-2.4.7-1.amzn2023.0.3.x86_64.rpm                                                                         2.4 MB/s |  38 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (12/15): libstdc++-devel-11.4.1-2.amzn2023.0.2.x86_64.rpm                                                                      24 MB/s | 2.2 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (13/15): libxcrypt-devel-4.4.33-7.amzn2023.x86_64.rpm                                                                         1.2 MB/s |  32 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (14/15): make-4.3-5.amzn2023.0.2.x86_64.rpm                                                                                    20 MB/s | 534 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (15/15): gcc-11.4.1-2.amzn2023.0.2.x86_64.rpm                                                                                  39 MB/s |  32 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 --------------------------------------------------------------------------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                                                                                          73 MB/s |  67 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                                                                                      1/1\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libmpc-1.2.1-2.amzn2023.0.2.x86_64                                                                                                  1/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : cpp-11.4.1-2.amzn2023.0.2.x86_64                                                                                                    2/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libtool-ltdl-2.4.7-1.amzn2023.0.3.x86_64                                                                                            3/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libstdc++-devel-11.4.1-2.amzn2023.0.2.x86_64                                                                                        4/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : kernel-headers-6.1.129-138.220.amzn2023.x86_64                                                                                      5/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : glibc-headers-x86-2.34-117.amzn2023.0.1.noarch                                                                                      6/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libxcrypt-devel-4.4.33-7.amzn2023.x86_64                                                                                            7/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : glibc-devel-2.34-117.amzn2023.0.1.x86_64                                                                                            8/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gc-8.0.4-5.amzn2023.0.2.x86_64                                                                                                      9/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : guile22-2.2.7-2.amzn2023.0.3.x86_64                                                                                                10/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : make-1:4.3-5.amzn2023.0.2.x86_64                                                                                                   11/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gcc-11.4.1-2.amzn2023.0.2.x86_64                                                                                                   12/15\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: gcc-11.4.1-2.amzn2023.0.2.x86_64                                                                                                   12/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : annobin-docs-10.93-1.amzn2023.0.1.noarch                                                                                           13/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : annobin-plugin-gcc-10.93-1.amzn2023.0.1.x86_64                                                                                     14/15\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: annobin-plugin-gcc-10.93-1.amzn2023.0.1.x86_64                                                                                     14/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gcc-c++-11.4.1-2.amzn2023.0.2.x86_64                                                                                               15/15\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: gcc-c++-11.4.1-2.amzn2023.0.2.x86_64                                                                                               15/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : annobin-docs-10.93-1.amzn2023.0.1.noarch                                                                                            1/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : annobin-plugin-gcc-10.93-1.amzn2023.0.1.x86_64                                                                                      2/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : cpp-11.4.1-2.amzn2023.0.2.x86_64                                                                                                    3/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gc-8.0.4-5.amzn2023.0.2.x86_64                                                                                                      4/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gcc-11.4.1-2.amzn2023.0.2.x86_64                                                                                                    5/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gcc-c++-11.4.1-2.amzn2023.0.2.x86_64                                                                                                6/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : glibc-devel-2.34-117.amzn2023.0.1.x86_64                                                                                            7/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : glibc-headers-x86-2.34-117.amzn2023.0.1.noarch                                                                                      8/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : guile22-2.2.7-2.amzn2023.0.3.x86_64                                                                                                 9/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : kernel-headers-6.1.129-138.220.amzn2023.x86_64                                                                                     10/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libmpc-1.2.1-2.amzn2023.0.2.x86_64                                                                                                 11/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libstdc++-devel-11.4.1-2.amzn2023.0.2.x86_64                                                                                       12/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libtool-ltdl-2.4.7-1.amzn2023.0.3.x86_64                                                                                           13/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libxcrypt-devel-4.4.33-7.amzn2023.x86_64                                                                                           14/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : make-1:4.3-5.amzn2023.0.2.x86_64                                                                                                   15/15\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   annobin-docs-10.93-1.amzn2023.0.1.noarch             annobin-plugin-gcc-10.93-1.amzn2023.0.1.x86_64       cpp-11.4.1-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   gc-8.0.4-5.amzn2023.0.2.x86_64                       gcc-11.4.1-2.amzn2023.0.2.x86_64                     gcc-c++-11.4.1-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   glibc-devel-2.34-117.amzn2023.0.1.x86_64             glibc-headers-x86-2.34-117.amzn2023.0.1.noarch       guile22-2.2.7-2.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   kernel-headers-6.1.129-138.220.amzn2023.x86_64       libmpc-1.2.1-2.amzn2023.0.2.x86_64                   libstdc++-devel-11.4.1-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libtool-ltdl-2.4.7-1.amzn2023.0.3.x86_64             libxcrypt-devel-4.4.33-7.amzn2023.x86_64             make-1:4.3-5.amzn2023.0.2.x86_64\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:13:56 - Cleaning up old repositories...\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:13:56 - Old repositories removed\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:13:56 - Supported architecture: x86_64\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:13:56 - Added N|Solid repository for LTS version: 18.x\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:13:56 - dnf available, updating...\cf1\highlight2 
+\par \cf0\highlight0 Node.js Packages for Linux RPM based distros - x86_64                                                                         790 kB/s | 1.0 MB     00:01\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:00:02 ago on Mon Mar 24 00:13:57 2025.\cf1\highlight2 
+\par \cf0\highlight0 Metadata cache created.\cf1\highlight2 
+\par \cf0\highlight0 N|Solid Packages for Linux RPM based distros - x86_64                                                                         516 kB/s | 637 kB     00:01\cf1\highlight2 
+\par \cf0\highlight0 Metadata cache created.\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:14:00 - Repository is configured and updated.\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:14:00 - You can use N|solid Runtime as a node.js alternative\cf1\highlight2 
+\par \cf3\highlight0 2025-03-24 00:14:00 - To install N|solid Runtime, run: dnf install nsolid -y\cf1\highlight2 
+\par \cf8\highlight0 2025-03-24 00:14:00 - Run 'dnf install nodejs -y' to complete the installation.\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install -y nodejs\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:00:11 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                        Architecture                   Version                                        Repository                                 Size\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 nodejs                        \cf0  x86_64                         2:18.20.6-1nodesource                          nodesource-nodejs                          34 M\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  1 Package\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 34 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 98 M\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 nodejs-18.20.6-1nodesource.x86_64.rpm                                                                                          68 MB/s |  34 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 --------------------------------------------------------------------------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                                                                                          67 MB/s |  34 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Node.js Packages for Linux RPM based distros - x86_64                                                                         111 kB/s | 3.1 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Importing GPG key 0x3AF28A14:\cf1\highlight2 
+\par \cf0\highlight0  Userid     : "Nodesource Operations <operations@nodesource.com>"\cf1\highlight2 
+\par \cf0\highlight0  Fingerprint: 242B 8138 31AF 0956 2B6C 46F7 6B88 DA4E 3AF2 8A14\cf1\highlight2 
+\par \cf0\highlight0  From       : https://rpm.nodesource.com/gpgkey/ns-operations-public.key\cf1\highlight2 
+\par \cf0\highlight0 Key imported successfully\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                                                                                      1/1\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: nodejs-2:18.20.6-1nodesource.x86_64                                                                                                  1/1\cf1\highlight2 
+\par \cf0\highlight0   Installing       : nodejs-2:18.20.6-1nodesource.x86_64                                                                                                  1/1\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: nodejs-2:18.20.6-1nodesource.x86_64                                                                                                  1/1\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : nodejs-2:18.20.6-1nodesource.x86_64                                                                                                  1/1\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   nodejs-2:18.20.6-1nodesource.x86_64\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install -y git\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:00:32 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 Package git-2.47.1-1.amzn2023.0.2.x86_64 is already installed.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 Nothing to do.\cf1\highlight2 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo npm install -g pm2\cf1\highlight2 
+\par 
+\par \cf0\highlight0 added 134 packages in 23s\cf1\highlight2 
+\par 
+\par \cf0\highlight0 13 packages are looking for funding\cf1\highlight2 
+\par \cf0\highlight0   run `npm fund` for details\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf0  New \cf6 major\cf0  version of npm available! \cf6 10.8.2\cf0  -> \cf10 11.2.0\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf0  Changelog: \cf10 https://github.com/npm/cli/releases/tag/v11.2.0\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf0  To update run: \ul npm install -g npm@11.2.0\cf1\highlight2\ulnone 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ git clone https://github.com/tera-repo/backend.git\cf1\highlight2 
+\par \cf0\highlight0 Cloning into 'backend'...\cf1\highlight2 
+\par \cf0\highlight0 Username for 'https://github.com': Technical-Ravi-web\cf1\highlight2 
+\par \cf0\highlight0 Password for 'https://Technical-Ravi-web@github.com':\cf1\highlight2 
+\par \cf0\highlight0 remote: Support for password authentication was removed on August 13, 2021.\cf1\highlight2 
+\par \cf0\highlight0 remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.\cf1\highlight2 
+\par \cf0\highlight0 fatal: Authentication failed for 'https://github.com/tera-repo/backend.git/'\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano main.tf\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ npm install express mysql\cf1\highlight2 
+\par 
+\par \cf0\highlight0 added 81 packages in 6s\cf1\highlight2 
+\par 
+\par \cf0\highlight0 14 packages are looking for funding\cf1\highlight2 
+\par \cf0\highlight0   run `npm fund` for details\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf0  New \cf6 major\cf0  version of npm available! \cf6 10.8.2\cf0  -> \cf10 11.2.0\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf0  Changelog: \cf10 https://github.com/npm/cli/releases/tag/v11.2.0\cf1\highlight2 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf0  To update run: \ul npm install -g npm@11.2.0\cf1\highlight2\ulnone 
+\par \cf0\highlight0\b npm\b0  \cf9 notice\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 start app.js --name backend\cf1\highlight2 
+\par 
+\par \cf0\highlight0                         -------------\cf1\highlight2 
+\par 
+\par \cf0\highlight0 __/\\\\\\\\\\\\\\\\\\\\\\\\\\____/\\\\\\\\____________/\\\\\\\\____/\\\\\\\\\\\\\\\\\\_____\cf1\highlight2 
+\par \cf0\highlight0  _\\/\\\\\\/////////\\\\\\_\\/\\\\\\\\\\\\________/\\\\\\\\\\\\__/\\\\\\///////\\\\\\___\cf1\highlight2 
+\par \cf0\highlight0   _\\/\\\\\\_______\\/\\\\\\_\\/\\\\\\//\\\\\\____/\\\\\\//\\\\\\_\\///______\\//\\\\\\__\cf1\highlight2 
+\par \cf0\highlight0    _\\/\\\\\\\\\\\\\\\\\\\\\\\\\\/__\\/\\\\\\\\///\\\\\\/\\\\\\/_\\/\\\\\\___________/\\\\\\/___\cf1\highlight2 
+\par \cf0\highlight0     _\\/\\\\\\/////////____\\/\\\\\\__\\///\\\\\\/___\\/\\\\\\________/\\\\\\//_____\cf1\highlight2 
+\par \cf0\highlight0      _\\/\\\\\\_____________\\/\\\\\\____\\///_____\\/\\\\\\_____/\\\\\\//________\cf1\highlight2 
+\par \cf0\highlight0       _\\/\\\\\\_____________\\/\\\\\\_____________\\/\\\\\\___/\\\\\\/___________\cf1\highlight2 
+\par \cf0\highlight0        _\\/\\\\\\_____________\\/\\\\\\_____________\\/\\\\\\__/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_\cf1\highlight2 
+\par \cf0\highlight0         _\\///______________\\///______________\\///__\\///////////////__\cf1\highlight2 
+\par 
+\par 
+\par \cf0\highlight0                           Runtime Edition\cf1\highlight2 
+\par 
+\par \cf0\highlight0         PM2 is a Production Process Manager for Node.js applications\cf1\highlight2 
+\par \cf0\highlight0                      with a built-in Load Balancer.\cf1\highlight2 
+\par 
+\par \cf0\highlight0                 Start and Daemonize any application:\cf1\highlight2 
+\par \cf0\highlight0                 $ pm2 start app.js\cf1\highlight2 
+\par 
+\par \cf0\highlight0                 Load Balance 4 instances of api.js:\cf1\highlight2 
+\par \cf0\highlight0                 $ pm2 start api.js -i 4\cf1\highlight2 
+\par 
+\par \cf0\highlight0                 Monitor in production:\cf1\highlight2 
+\par \cf0\highlight0                 $ pm2 monitor\cf1\highlight2 
+\par 
+\par \cf0\highlight0                 Make pm2 auto-boot at server restart:\cf1\highlight2 
+\par \cf0\highlight0                 $ pm2 startup\cf1\highlight2 
+\par 
+\par \cf0\highlight0                 To go further checkout:\cf1\highlight2 
+\par \cf0\highlight0                 http://pm2.io/\cf1\highlight2 
+\par 
+\par 
+\par \cf0\highlight0                         -------------\cf1\highlight2 
+\par 
+\par \cf11\highlight0 [PM2] \cf0 Spawning PM2 daemon with pm2_home=/home/ec2-user/.pm2\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 PM2 Successfully daemonized\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Starting /home/ec2-user/terraform-project/app.js in fork_mode (1 instance)\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Done.\cf1\highlight2 
+\par \cf12\highlight0\u9484?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  id \cf12\u9474?\cf9  name       \cf12\u9474?\cf9  namespace   \cf12\u9474?\cf9  version \cf12\u9474?\cf9  mode    \cf12\u9474?\cf9  pid      \cf12\u9474?\cf9  uptime \cf12\u9474?\cf9  \u8634?    \cf12\u9474?\cf9  status    \cf12\u9474?\cf9  cpu      \cf12\u9474?\cf9  mem      \cf12\u9474?\cf9  user     \cf12\u9474?\cf9  watching \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9500?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9508?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  0  \cf12\u9474?\cf0  backend    \cf12\u9474?\cf0  default     \cf12\u9474?\cf0  N/A     \cf12\u9474?\cf0  \cf13\highlight14 fork\cf0\highlight0     \cf12\u9474?\cf0  36302    \cf12\u9474?\cf0  0s     \cf12\u9474?\cf0  0    \cf12\u9474?\cf0  \cf3 online\cf0     \cf12\u9474?\cf0  0%       \cf12\u9474?\cf0  39.8mb   \cf12\u9474?\cf0  \b ec2-user\b0  \cf12\u9474?\cf0  \cf12 disabled\cf0  \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9492?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 save\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Saving current process list...\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Successfully saved in /home/ec2-user/.pm2/dump.pm2\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 startup\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Init System found: \b systemd\cf1\highlight2\b0 
+\par \cf11\highlight0 [PM2] \cf0 To setup the Startup Script, copy/paste the following command:\cf1\highlight2 
+\par \cf0\highlight0 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ec2-user --hp /home/ec2-user\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo firewall-cmd --zone=public --add-port=3000/tcp --permanent\cf1\highlight2 
+\par \cf0\highlight0 sudo: firewall-cmd: command not found\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo systemctl status firewalld\cf1\highlight2 
+\par \cf15\highlight0 Unit firewalld.service could not be found.\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install -y firewalld\cf1\highlight2 
+\par \cf0\highlight0 sudo systemctl start firewalld\cf1\highlight2 
+\par \cf0\highlight0 sudo systemctl enable firewalld\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:11:21 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                                     Architecture                Version                                       Repository                        Size\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 firewalld                                  \cf0  noarch                      1.2.3-1.amzn2023                              amazonlinux                      452 k\cf1\highlight2 
+\par \cf0\highlight0 Installing dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 firewalld-filesystem                       \cf0  noarch                      1.2.3-1.amzn2023                              amazonlinux                       11 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gobject-introspection                      \cf0  x86_64                      1.82.0-1.amzn2023                             amazonlinux                      122 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 ipset                                      \cf0  x86_64                      7.11-1.amzn2023.0.3                           amazonlinux                       40 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 ipset-libs                                 \cf0  x86_64                      7.11-1.amzn2023.0.3                           amazonlinux                       67 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 iptables-libs                              \cf0  x86_64                      1.8.8-3.amzn2023.0.2                          amazonlinux                      401 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 iptables-nft                               \cf0  x86_64                      1.8.8-3.amzn2023.0.2                          amazonlinux                      183 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libnetfilter_conntrack                     \cf0  x86_64                      1.0.8-2.amzn2023.0.2                          amazonlinux                       58 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libnfnetlink                               \cf0  x86_64                      1.0.1-19.amzn2023.0.2                         amazonlinux                       30 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libnftnl                                   \cf0  x86_64                      1.2.2-2.amzn2023.0.2                          amazonlinux                       84 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 nftables                                   \cf0  x86_64                      1:1.0.4-3.amzn2023.0.2                        amazonlinux                      400 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 python3-firewall                           \cf0  noarch                      1.2.3-1.amzn2023                              amazonlinux                      357 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 python3-gobject-base                       \cf0  x86_64                      3.48.2-3.amzn2023.0.2                         amazonlinux                      323 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 python3-nftables                           \cf0  x86_64                      1:1.0.4-3.amzn2023.0.2                        amazonlinux                       18 k\cf1\highlight2 
+\par \cf0\highlight0 Installing weak dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libcap-ng-python3                          \cf0  x86_64                      0.8.2-4.amzn2023.0.2                          amazonlinux                       30 k\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  15 Packages\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 2.5 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 11 M\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 (1/15): gobject-introspection-1.82.0-1.amzn2023.x86_64.rpm                                                                    3.1 MB/s | 122 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (2/15): firewalld-filesystem-1.2.3-1.amzn2023.noarch.rpm                                                                      182 kB/s |  11 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (3/15): ipset-libs-7.11-1.amzn2023.0.3.x86_64.rpm                                                                             2.1 MB/s |  67 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (4/15): ipset-7.11-1.amzn2023.0.3.x86_64.rpm                                                                                  661 kB/s |  40 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (5/15): firewalld-1.2.3-1.amzn2023.noarch.rpm                                                                                 3.3 MB/s | 452 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (6/15): iptables-nft-1.8.8-3.amzn2023.0.2.x86_64.rpm                                                                          4.9 MB/s | 183 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (7/15): iptables-libs-1.8.8-3.amzn2023.0.2.x86_64.rpm                                                                         7.4 MB/s | 401 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (8/15): libnetfilter_conntrack-1.0.8-2.amzn2023.0.2.x86_64.rpm                                                                3.0 MB/s |  58 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (9/15): libnfnetlink-1.0.1-19.amzn2023.0.2.x86_64.rpm                                                                         1.5 MB/s |  30 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (10/15): libnftnl-1.2.2-2.amzn2023.0.2.x86_64.rpm                                                                             3.1 MB/s |  84 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (11/15): libcap-ng-python3-0.8.2-4.amzn2023.0.2.x86_64.rpm                                                                    515 kB/s |  30 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (12/15): nftables-1.0.4-3.amzn2023.0.2.x86_64.rpm                                                                             4.8 MB/s | 400 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (13/15): python3-firewall-1.2.3-1.amzn2023.noarch.rpm                                                                         3.8 MB/s | 357 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (14/15): python3-gobject-base-3.48.2-3.amzn2023.0.2.x86_64.rpm                                                                3.0 MB/s | 323 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (15/15): python3-nftables-1.0.4-3.amzn2023.0.2.x86_64.rpm                                                                     247 kB/s |  18 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 --------------------------------------------------------------------------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                                                                                         7.1 MB/s | 2.5 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                                                                                      1/1\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libnftnl-1.2.2-2.amzn2023.0.2.x86_64                                                                                                1/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libnfnetlink-1.0.1-19.amzn2023.0.2.x86_64                                                                                           2/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libnetfilter_conntrack-1.0.8-2.amzn2023.0.2.x86_64                                                                                  3/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : iptables-libs-1.8.8-3.amzn2023.0.2.x86_64                                                                                           4/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : iptables-nft-1.8.8-3.amzn2023.0.2.x86_64                                                                                            5/15\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: iptables-nft-1.8.8-3.amzn2023.0.2.x86_64                                                                                            5/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : nftables-1:1.0.4-3.amzn2023.0.2.x86_64                                                                                              6/15\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: nftables-1:1.0.4-3.amzn2023.0.2.x86_64                                                                                              6/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : python3-nftables-1:1.0.4-3.amzn2023.0.2.x86_64                                                                                      7/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libcap-ng-python3-0.8.2-4.amzn2023.0.2.x86_64                                                                                       8/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : ipset-libs-7.11-1.amzn2023.0.3.x86_64                                                                                               9/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : ipset-7.11-1.amzn2023.0.3.x86_64                                                                                                   10/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gobject-introspection-1.82.0-1.amzn2023.x86_64                                                                                     11/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : python3-gobject-base-3.48.2-3.amzn2023.0.2.x86_64                                                                                  12/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : python3-firewall-1.2.3-1.amzn2023.noarch                                                                                           13/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : firewalld-filesystem-1.2.3-1.amzn2023.noarch                                                                                       14/15\cf1\highlight2 
+\par \cf0\highlight0   Installing       : firewalld-1.2.3-1.amzn2023.noarch                                                                                                  15/15\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: firewalld-1.2.3-1.amzn2023.noarch                                                                                                  15/15\cf1\highlight2 
+\par \cf0\highlight0 Created symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service \u8594? /usr/lib/systemd/system/firewalld.service.\cf1\highlight2 
+\par \cf0\highlight0 Created symlink /etc/systemd/system/multi-user.target.wants/firewalld.service \u8594? /usr/lib/systemd/system/firewalld.service.\cf1\highlight2 
+\par 
+\par \cf0\highlight0   Verifying        : firewalld-1.2.3-1.amzn2023.noarch                                                                                                   1/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : firewalld-filesystem-1.2.3-1.amzn2023.noarch                                                                                        2/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gobject-introspection-1.82.0-1.amzn2023.x86_64                                                                                      3/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : ipset-7.11-1.amzn2023.0.3.x86_64                                                                                                    4/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : ipset-libs-7.11-1.amzn2023.0.3.x86_64                                                                                               5/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : iptables-libs-1.8.8-3.amzn2023.0.2.x86_64                                                                                           6/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : iptables-nft-1.8.8-3.amzn2023.0.2.x86_64                                                                                            7/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libcap-ng-python3-0.8.2-4.amzn2023.0.2.x86_64                                                                                       8/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libnetfilter_conntrack-1.0.8-2.amzn2023.0.2.x86_64                                                                                  9/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libnfnetlink-1.0.1-19.amzn2023.0.2.x86_64                                                                                          10/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libnftnl-1.2.2-2.amzn2023.0.2.x86_64                                                                                               11/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : nftables-1:1.0.4-3.amzn2023.0.2.x86_64                                                                                             12/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : python3-firewall-1.2.3-1.amzn2023.noarch                                                                                           13/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : python3-gobject-base-3.48.2-3.amzn2023.0.2.x86_64                                                                                  14/15\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : python3-nftables-1:1.0.4-3.amzn2023.0.2.x86_64                                                                                     15/15\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   firewalld-1.2.3-1.amzn2023.noarch             firewalld-filesystem-1.2.3-1.amzn2023.noarch          gobject-introspection-1.82.0-1.amzn2023.x86_64\cf1\highlight2 
+\par \cf0\highlight0   ipset-7.11-1.amzn2023.0.3.x86_64              ipset-libs-7.11-1.amzn2023.0.3.x86_64                 iptables-libs-1.8.8-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   iptables-nft-1.8.8-3.amzn2023.0.2.x86_64      libcap-ng-python3-0.8.2-4.amzn2023.0.2.x86_64         libnetfilter_conntrack-1.0.8-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libnfnetlink-1.0.1-19.amzn2023.0.2.x86_64     libnftnl-1.2.2-2.amzn2023.0.2.x86_64                  nftables-1:1.0.4-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   python3-firewall-1.2.3-1.amzn2023.noarch      python3-gobject-base-3.48.2-3.amzn2023.0.2.x86_64     python3-nftables-1:1.0.4-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo systemctl status firewalld\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  firewalld.service - firewalld - dynamic firewall daemon\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/usr/lib/systemd/system/firewalld.service; \cf3 enabled\cf0 ; preset: \cf3 enabled\cf0 )\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2025-03-24 00:25:24 UTC; 23s ago\cf1\highlight2 
+\par \cf0\highlight0        Docs: man:firewalld(1)\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 37028 (firewalld)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 2 (limit: 1111)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 26.0M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 340ms\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/firewalld.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?\cf16 37028 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Mar 24 00:25:24 ip-172-31-8-161.ap-south-1.compute.internal systemd[1]: Starting firewalld.service - firewalld - dynamic firewall daemon...\cf1\highlight2 
+\par \cf0\highlight0 Mar 24 00:25:24 ip-172-31-8-161.ap-south-1.compute.internal systemd[1]: Started firewalld.service - firewalld - dynamic firewall daemon.\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo firewall-cmd --zone=public --add-port=3000/tcp --permanent\cf1\highlight2 
+\par \cf0\highlight0 success\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo firewall-cmd --reload\cf1\highlight2 
+\par \cf0\highlight0 success\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ ps aux | grep node\cf1\highlight2 
+\par \cf0\highlight0 root        1043  0.0  0.0      0     0 ?        I<   Mar23   0:00 [xfs-i\cf15 node\cf0 gc/xvd]\cf1\highlight2 
+\par \cf0\highlight0 ec2-user   37329  0.0  0.2 222316  2060 pts/0    S+   00:30   0:00 grep --color=auto \cf15 node\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ node app.js\cf1\highlight2 
+\par \cf0\highlight0 Server started on port 3000\cf1\highlight2 
+\par \cf0\highlight0 /home/ec2-user/terraform-project/node_modules/mysql/lib/protocol/Parser.js:437\cf1\highlight2 
+\par \cf0\highlight0       throw err; // Rethrow non-MySQL errors\cf1\highlight2 
+\par \cf0\highlight0       ^\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Error: ER_BAD_DB_ERROR: Unknown database 'DATABASE_NAME'\cf1\highlight2 
+\par \cf0\highlight0     at Sequence._packetToError \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/sequences/Sequence.js:47:14\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Handshake.ErrorPacket \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/sequences/Handshake.js:123:18\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Protocol._parsePacket \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:291:23\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Parser._parsePacket \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Parser.js:433:10\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Parser.write \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Parser.js:43:10\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Protocol.write \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:38:16\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Socket.<anonymous> \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/Connection.js:88:28\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Socket.<anonymous> \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/Connection.js:526:10\cf12 )\cf1\highlight2 
+\par \cf12\highlight0     at Socket.emit (node:events:517:28)\cf1\highlight2 
+\par \cf12\highlight0     at addChunk (node:internal/streams/readable:368:12)\cf1\highlight2 
+\par \cf0\highlight0     --------------------\cf1\highlight2 
+\par \cf0\highlight0     at Protocol._enqueue \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:144:48\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Protocol.handshake \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:51:23\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Connection.connect \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/Connection.js:116:18\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Object.<anonymous> \cf12 (/home/ec2-user/terraform-project/\cf0 app.js:12:4\cf12 )\cf1\highlight2 
+\par \cf12\highlight0     at Module._compile (node:internal/modules/cjs/loader:1364:14)\cf1\highlight2 
+\par \cf12\highlight0     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\cf1\highlight2 
+\par \cf12\highlight0     at Module.load (node:internal/modules/cjs/loader:1203:32)\cf1\highlight2 
+\par \cf12\highlight0     at Module._load (node:internal/modules/cjs/loader:1019:12)\cf1\highlight2 
+\par \cf12\highlight0     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\cf1\highlight2 
+\par \cf12\highlight0     at node:internal/main/run_main_module:28:49\cf0  \{\cf1\highlight2 
+\par \cf0\highlight0   code: \cf11 'ER_BAD_DB_ERROR'\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   errno: \cf17 1049\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   sqlMessage: \cf11 "Unknown database 'DATABASE_NAME'"\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   sqlState: \cf11 '42000'\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   fatal: \cf17 true\cf1\highlight2 
+\par \cf0\highlight0\}\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Node.js v18.20.6\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ node server.js\cf1\highlight2 
+\par \cf0\highlight0 node:internal/modules/cjs/loader:1143\cf1\highlight2 
+\par \cf0\highlight0   throw err;\cf1\highlight2 
+\par \cf0\highlight0   ^\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Error: Cannot find module '/home/ec2-user/terraform-project/server.js'\cf1\highlight2 
+\par \cf12\highlight0     at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\cf1\highlight2 
+\par \cf12\highlight0     at Module._load (node:internal/modules/cjs/loader:981:27)\cf1\highlight2 
+\par \cf12\highlight0     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\cf1\highlight2 
+\par \cf12\highlight0     at node:internal/main/run_main_module:28:49\cf0  \{\cf1\highlight2 
+\par \cf0\highlight0   code: \cf11 'MODULE_NOT_FOUND'\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   requireStack: []\cf1\highlight2 
+\par \cf0\highlight0\}\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Node.js v18.20.6\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ ps aux | grep node\cf1\highlight2 
+\par \cf0\highlight0 root        1043  0.0  0.0      0     0 ?        I<   Mar23   0:00 [xfs-i\cf15 node\cf0 gc/xvd]\cf1\highlight2 
+\par \cf0\highlight0 ec2-user   37414  0.0  0.2 222316  2068 pts/0    S+   00:32   0:00 grep --color=auto \cf15 node\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ curl http://localhost:3000\cf1\highlight2 
+\par \cf0\highlight0 curl: (7) Failed to connect to localhost port 3000 after 0 ms: Couldn't connect to server\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ node app.js\cf1\highlight2 
+\par \cf0\highlight0 Server started on port 3000\cf1\highlight2 
+\par \cf0\highlight0 /home/ec2-user/terraform-project/node_modules/mysql/lib/protocol/Parser.js:437\cf1\highlight2 
+\par \cf0\highlight0       throw err; // Rethrow non-MySQL errors\cf1\highlight2 
+\par \cf0\highlight0       ^\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Error: ER_BAD_DB_ERROR: Unknown database 'DATABASE_NAME'\cf1\highlight2 
+\par \cf0\highlight0     at Sequence._packetToError \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/sequences/Sequence.js:47:14\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Handshake.ErrorPacket \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/sequences/Handshake.js:123:18\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Protocol._parsePacket \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:291:23\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Parser._parsePacket \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Parser.js:433:10\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Parser.write \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Parser.js:43:10\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Protocol.write \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:38:16\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Socket.<anonymous> \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/Connection.js:88:28\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Socket.<anonymous> \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/Connection.js:526:10\cf12 )\cf1\highlight2 
+\par \cf12\highlight0     at Socket.emit (node:events:517:28)\cf1\highlight2 
+\par \cf12\highlight0     at addChunk (node:internal/streams/readable:368:12)\cf1\highlight2 
+\par \cf0\highlight0     --------------------\cf1\highlight2 
+\par \cf0\highlight0     at Protocol._enqueue \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:144:48\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Protocol.handshake \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/protocol/Protocol.js:51:23\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Connection.connect \cf12 (/home/ec2-user/terraform-project/\cf0 node_modules/\ul mysql\ulnone /lib/Connection.js:116:18\cf12 )\cf1\highlight2 
+\par \cf0\highlight0     at Object.<anonymous> \cf12 (/home/ec2-user/terraform-project/\cf0 app.js:12:4\cf12 )\cf1\highlight2 
+\par \cf12\highlight0     at Module._compile (node:internal/modules/cjs/loader:1364:14)\cf1\highlight2 
+\par \cf12\highlight0     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\cf1\highlight2 
+\par \cf12\highlight0     at Module.load (node:internal/modules/cjs/loader:1203:32)\cf1\highlight2 
+\par \cf12\highlight0     at Module._load (node:internal/modules/cjs/loader:1019:12)\cf1\highlight2 
+\par \cf12\highlight0     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\cf1\highlight2 
+\par \cf12\highlight0     at node:internal/main/run_main_module:28:49\cf0  \{\cf1\highlight2 
+\par \cf0\highlight0   code: \cf11 'ER_BAD_DB_ERROR'\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   errno: \cf17 1049\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   sqlMessage: \cf11 "Unknown database 'DATABASE_NAME'"\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   sqlState: \cf11 '42000'\cf0 ,\cf1\highlight2 
+\par \cf0\highlight0   fatal: \cf17 true\cf1\highlight2 
+\par \cf0\highlight0\}\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Node.js v18.20.6\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ aws rds describe-db-instances --query 'DBInstances[*].[Endpoint.Address]' --output table\cf1\highlight2 
+\par \cf0\highlight0 ------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 |                    DescribeDBInstances                   |\cf1\highlight2 
+\par \cf0\highlight0 +----------------------------------------------------------+\cf1\highlight2 
+\par \cf0\highlight0 |  \cf18 ecommerce-db.chmkegyisvf6.ap-south-1.rds.amazonaws.com\cf0   |\cf1\highlight2 
+\par \cf0\highlight0 +----------------------------------------------------------+\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ mysql -h RDS_ENDPOINT -u admin -p\cf1\highlight2 
+\par \cf0\highlight0 -bash: mysql: command not found\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ mysql -h ecommerce-db.chmkegyisvf6.ap-south-1.rds.amazonaws.com -u admin -p\cf1\highlight2 
+\par \cf0\highlight0 -bash: mysql: command not found\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install mysql -y\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:23:20 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 No match for argument: \b mysql\cf1\highlight2\b0 
+\par \cf0\highlight0 Error: Unable to find a match: mysql\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install mariadb -y\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:23:51 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 No match for argument: \b mariadb\cf1\highlight2\b0 
+\par \cf0\highlight0 Error: Unable to find a match: mariadb\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo dnf install mysql\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:24:28 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 No match for argument: \b mysql\cf1\highlight2\b0 
+\par \cf0\highlight0 Error: Unable to find a match: mysql\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo dnf install mysql mysql-client -y\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:24:48 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 No match for argument: \b mysql\cf1\highlight2\b0 
+\par \cf0\highlight0 No match for argument: \b mysql-client\cf1\highlight2\b0 
+\par \cf0\highlight0 Error: Unable to find a match: mysql mysql-client\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo dnf install mariadb105\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:25:23 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                                        Architecture               Version                                      Repository                       Size\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mariadb105                                    \cf0  x86_64                     3:10.5.25-1.amzn2023.0.1                     amazonlinux                     1.6 M\cf1\highlight2 
+\par \cf0\highlight0 Installing dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mariadb-connector-c                           \cf0  x86_64                     3.1.13-1.amzn2023.0.3                        amazonlinux                     196 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mariadb-connector-c-config                    \cf0  noarch                     3.1.13-1.amzn2023.0.3                        amazonlinux                     9.2 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mariadb105-common                             \cf0  x86_64                     3:10.5.25-1.amzn2023.0.1                     amazonlinux                      29 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 perl-Sys-Hostname                             \cf0  x86_64                     1.23-477.amzn2023.0.6                        amazonlinux                      18 k\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  5 Packages\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 1.8 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 19 M\cf1\highlight2 
+\par \cf0\highlight0 Is this ok [y/N]: y\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 (1/5): mariadb-connector-c-3.1.13-1.amzn2023.0.3.x86_64.rpm                                                                   4.5 MB/s | 196 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (2/5): mariadb-connector-c-config-3.1.13-1.amzn2023.0.3.noarch.rpm                                                            205 kB/s | 9.2 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (3/5): perl-Sys-Hostname-1.23-477.amzn2023.0.6.x86_64.rpm                                                                     915 kB/s |  18 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (4/5): mariadb105-common-10.5.25-1.amzn2023.0.1.x86_64.rpm                                                                    1.3 MB/s |  29 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (5/5): mariadb105-10.5.25-1.amzn2023.0.1.x86_64.rpm                                                                            16 MB/s | 1.6 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 --------------------------------------------------------------------------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                                                                                          14 MB/s | 1.8 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                                                                                      1/1\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mariadb-connector-c-config-3.1.13-1.amzn2023.0.3.noarch                                                                              1/5\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mariadb-connector-c-3.1.13-1.amzn2023.0.3.x86_64                                                                                     2/5\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mariadb105-common-3:10.5.25-1.amzn2023.0.1.x86_64                                                                                    3/5\cf1\highlight2 
+\par \cf0\highlight0   Installing       : perl-Sys-Hostname-1.23-477.amzn2023.0.6.x86_64                                                                                       4/5\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mariadb105-3:10.5.25-1.amzn2023.0.1.x86_64                                                                                           5/5\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: mariadb105-3:10.5.25-1.amzn2023.0.1.x86_64                                                                                           5/5\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mariadb-connector-c-3.1.13-1.amzn2023.0.3.x86_64                                                                                     1/5\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mariadb-connector-c-config-3.1.13-1.amzn2023.0.3.noarch                                                                              2/5\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mariadb105-3:10.5.25-1.amzn2023.0.1.x86_64                                                                                           3/5\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mariadb105-common-3:10.5.25-1.amzn2023.0.1.x86_64                                                                                    4/5\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : perl-Sys-Hostname-1.23-477.amzn2023.0.6.x86_64                                                                                       5/5\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   mariadb-connector-c-3.1.13-1.amzn2023.0.3.x86_64    mariadb-connector-c-config-3.1.13-1.amzn2023.0.3.noarch   mariadb105-3:10.5.25-1.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   mariadb105-common-3:10.5.25-1.amzn2023.0.1.x86_64   perl-Sys-Hostname-1.23-477.amzn2023.0.6.x86_64\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo dnf install mysql10.5\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:26:07 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 No match for argument: \b mysql10.5\cf1\highlight2\b0 
+\par \cf0\highlight0 Error: Unable to find a match: mysql10.5\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ mysql --version\cf1\highlight2 
+\par \cf0\highlight0 mysql  Ver 15.1 Distrib 10.5.25-MariaDB, for Linux (x86_64) using  EditLine wrapper\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ mysql -h ecommerce-db.chmkegyisvf6.ap-south-1.rds.amazonaws.com -u admin -p\cf1\highlight2 
+\par \cf0\highlight0 Enter password:\cf1\highlight2 
+\par \cf0\highlight0\b Welcome to the MariaDB monitor.  Commands end with ; or \\g.\cf1\highlight2\b0 
+\par \cf0\highlight0\b Your MySQL connection id is 55\cf1\highlight2\b0 
+\par \cf0\highlight0\b Server version: 8.0.40 Source distribution\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0\b Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0\b Type 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]> CREATE DATABASE ecommerce;\cf1\highlight2 
+\par \cf0\highlight0\b Query OK, 1 row affected (0.007 sec)\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [(none)]> SHOW DATABASES;\cf1\highlight2 
+\par \cf0\highlight0 +--------------------+\cf1\highlight2 
+\par \cf0\highlight0 | Database           |\cf1\highlight2 
+\par \cf0\highlight0 +--------------------+\cf1\highlight2 
+\par \cf0\highlight0 | ecommerce          |\cf1\highlight2 
+\par \cf0\highlight0 | information_schema |\cf1\highlight2 
+\par \cf0\highlight0 | mysql              |\cf1\highlight2 
+\par \cf0\highlight0 | performance_schema |\cf1\highlight2 
+\par \cf0\highlight0 | sys                |\cf1\highlight2 
+\par \cf0\highlight0 +--------------------+\cf1\highlight2 
+\par \cf0\highlight0\b 5 rows in set (0.005 sec)\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [(none)]> exit\cf1\highlight2 
+\par \cf0\highlight0\b Bye\cf1\highlight2\b0 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 restart app.js\cf1\highlight2 
+\par \cf18\highlight0 Use --update-env to update environment variables\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Applying action restartProcessId on app [app.js](ids: [ 0 ])\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 [backend](0) \u10003?\cf1\highlight2 
+\par \cf12\highlight0\u9484?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  id \cf12\u9474?\cf9  name       \cf12\u9474?\cf9  namespace   \cf12\u9474?\cf9  version \cf12\u9474?\cf9  mode    \cf12\u9474?\cf9  pid      \cf12\u9474?\cf9  uptime \cf12\u9474?\cf9  \u8634?    \cf12\u9474?\cf9  status    \cf12\u9474?\cf9  cpu      \cf12\u9474?\cf9  mem      \cf12\u9474?\cf9  user     \cf12\u9474?\cf9  watching \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9500?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9508?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  0  \cf12\u9474?\cf0  backend    \cf12\u9474?\cf0  default     \cf12\u9474?\cf0  N/A     \cf12\u9474?\cf0  \cf13\highlight14 fork\cf0\highlight0     \cf12\u9474?\cf0  38600    \cf12\u9474?\cf0  0s     \cf12\u9474?\cf0  15   \cf12\u9474?\cf0  \cf3 online\cf0     \cf12\u9474?\cf0  0%       \cf12\u9474?\cf0  22.2mb   \cf12\u9474?\cf0  \b ec2-user\b0  \cf12\u9474?\cf0  \cf12 disabled\cf0  \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9492?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ node app.js\cf1\highlight2 
+\par \cf0\highlight0 /home/ec2-user/terraform-project/app.js:30\cf1\highlight2 
+\par \cf0\highlight0 const mysql = require('mysql');\cf1\highlight2 
+\par \cf0\highlight0       ^\cf1\highlight2 
+\par 
+\par \cf0\highlight0 SyntaxError: Identifier 'mysql' has already been declared\cf1\highlight2 
+\par \cf12\highlight0     at internalCompileFunction (node:internal/vm:76:18)\cf1\highlight2 
+\par \cf12\highlight0     at wrapSafe (node:internal/modules/cjs/loader:1283:20)\cf1\highlight2 
+\par \cf12\highlight0     at Module._compile (node:internal/modules/cjs/loader:1328:27)\cf1\highlight2 
+\par \cf12\highlight0     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\cf1\highlight2 
+\par \cf12\highlight0     at Module.load (node:internal/modules/cjs/loader:1203:32)\cf1\highlight2 
+\par \cf12\highlight0     at Module._load (node:internal/modules/cjs/loader:1019:12)\cf1\highlight2 
+\par \cf12\highlight0     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\cf1\highlight2 
+\par \cf12\highlight0     at node:internal/main/run_main_module:28:49\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Node.js v18.20.6\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano node.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ > app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ nano app.js\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 restart app.js\cf1\highlight2 
+\par \cf18\highlight0 Use --update-env to update environment variables\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Applying action restartProcessId on app [app.js](ids: [ 0 ])\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 [backend](0) \u10003?\cf1\highlight2 
+\par \cf12\highlight0\u9484?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  id \cf12\u9474?\cf9  name       \cf12\u9474?\cf9  namespace   \cf12\u9474?\cf9  version \cf12\u9474?\cf9  mode    \cf12\u9474?\cf9  pid      \cf12\u9474?\cf9  uptime \cf12\u9474?\cf9  \u8634?    \cf12\u9474?\cf9  status    \cf12\u9474?\cf9  cpu      \cf12\u9474?\cf9  mem      \cf12\u9474?\cf9  user     \cf12\u9474?\cf9  watching \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9500?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9508?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  0  \cf12\u9474?\cf0  backend    \cf12\u9474?\cf0  default     \cf12\u9474?\cf0  N/A     \cf12\u9474?\cf0  \cf13\highlight14 fork\cf0\highlight0     \cf12\u9474?\cf0  38918    \cf12\u9474?\cf0  0s     \cf12\u9474?\cf0  30   \cf12\u9474?\cf0  \cf3 online\cf0     \cf12\u9474?\cf0  0%       \cf12\u9474?\cf0  4.0kb    \cf12\u9474?\cf0  \b ec2-user\b0  \cf12\u9474?\cf0  \cf12 disabled\cf0  \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9492?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ mysql -h ecommerce-db.chmkegyisvf6.ap-south-1.rds.amazonaws.com -u admin -p\cf1\highlight2 
+\par \cf0\highlight0 Enter password:\cf1\highlight2 
+\par \cf0\highlight0\b Welcome to the MariaDB monitor.  Commands end with ; or \\g.\cf1\highlight2\b0 
+\par \cf0\highlight0\b Your MySQL connection id is 60\cf1\highlight2\b0 
+\par \cf0\highlight0\b Server version: 8.0.40 Source distribution\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0\b Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0\b Type 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [(none)]> USE ecommerce;\cf1\highlight2 
+\par \cf0\highlight0\b Database changed\cf1\highlight2\b0 
+\par \cf0\highlight0 MySQL [ecommerce]> SHOW TABLES;\cf1\highlight2 
+\par \cf0\highlight0\b Empty set (0.002 sec)\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [ecommerce]> CREATE TABLE products (\cf1\highlight2 
+\par \cf0\highlight0     ->     id INT AUTO_INCREMENT PRIMARY KEY,\cf1\highlight2 
+\par \cf0\highlight0     ->     name VARCHAR(255) NOT NULL,\cf1\highlight2 
+\par \cf0\highlight0     ->     price DECIMAL(10,2) NOT NULL,\cf1\highlight2 
+\par \cf0\highlight0     ->     description TEXT,\cf1\highlight2 
+\par \cf0\highlight0     ->     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\cf1\highlight2 
+\par \cf0\highlight0     -> );\cf1\highlight2 
+\par \cf0\highlight0\b Query OK, 0 rows affected (0.051 sec)\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [ecommerce]> INSERT INTO products (name, price, description)\cf1\highlight2 
+\par \cf0\highlight0     -> VALUES ('Test Product', 999.99, 'This is a test product');\cf1\highlight2 
+\par \cf0\highlight0\b Query OK, 1 row affected (0.005 sec)\cf1\highlight2\b0 
+\par 
+\par \cf0\highlight0 MySQL [ecommerce]> pm2 restart app.js\cf1\highlight2 
+\par \cf0\highlight0     ->\cf1\highlight2 
+\par \cf0\highlight0     -> exit\cf1\highlight2 
+\par \cf0\highlight0     -> exit\cf1\highlight2 
+\par \cf0\highlight0     -> q\cf1\highlight2 
+\par \cf0\highlight0     ->\cf1\highlight2 
+\par \cf0\highlight0     -> ^C\cf1\highlight2 
+\par \cf0\highlight0 ^X^C^C\cf1\highlight2 
+\par \cf0\highlight0 EXIT;\cf1\highlight2 
+\par \cf0\highlight0 EXIT;\cf1\highlight2 
+\par \cf0\highlight0 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pm2 restart app.js\cf1\highlight2 
+\par 
+\par \cf0\highlight0 exit\cf1\highlight2 
+\par \cf0\highlight0 exit\cf1\highlight2 
+\par \cf0\highlight0 q\cf1\highlight2 
+\par 
+\par \cf0\highlight0 EXIT' at line 1\cf1\highlight2 
+\par \cf0\highlight0 MySQL [ecommerce]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [ecommerce]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [ecommerce]>\cf1\highlight2 
+\par \cf0\highlight0 MySQL [ecommerce]> exit\cf1\highlight2 
+\par \cf0\highlight0\b Bye\cf1\highlight2\b0 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 restart app.js\cf1\highlight2 
+\par \cf18\highlight0 Use --update-env to update environment variables\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 Applying action restartProcessId on app [app.js](ids: [ 0 ])\cf1\highlight2 
+\par \cf11\highlight0 [PM2] \cf0 [backend](0) \u10003?\cf1\highlight2 
+\par \cf12\highlight0\u9484?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  id \cf12\u9474?\cf9  name       \cf12\u9474?\cf9  namespace   \cf12\u9474?\cf9  version \cf12\u9474?\cf9  mode    \cf12\u9474?\cf9  pid      \cf12\u9474?\cf9  uptime \cf12\u9474?\cf9  \u8634?    \cf12\u9474?\cf9  status    \cf12\u9474?\cf9  cpu      \cf12\u9474?\cf9  mem      \cf12\u9474?\cf9  user     \cf12\u9474?\cf9  watching \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9500?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9508?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  0  \cf12\u9474?\cf0  backend    \cf12\u9474?\cf0  default     \cf12\u9474?\cf0  N/A     \cf12\u9474?\cf0  \cf13\highlight14 fork\cf0\highlight0     \cf12\u9474?\cf0  39185    \cf12\u9474?\cf0  0s     \cf12\u9474?\cf0  31   \cf12\u9474?\cf0  \cf3 online\cf0     \cf12\u9474?\cf0  0%       \cf12\u9474?\cf0  4.0kb    \cf12\u9474?\cf0  \b ec2-user\b0  \cf12\u9474?\cf0  \cf12 disabled\cf0  \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9492?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 list\cf1\highlight2 
+\par \cf12\highlight0\u9484?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  id \cf12\u9474?\cf9  name       \cf12\u9474?\cf9  namespace   \cf12\u9474?\cf9  version \cf12\u9474?\cf9  mode    \cf12\u9474?\cf9  pid      \cf12\u9474?\cf9  uptime \cf12\u9474?\cf9  \u8634?    \cf12\u9474?\cf9  status    \cf12\u9474?\cf9  cpu      \cf12\u9474?\cf9  mem      \cf12\u9474?\cf9  user     \cf12\u9474?\cf9  watching \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9500?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9532?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9508?\cf1\highlight2 
+\par \cf12\highlight0\u9474?\cf9  0  \cf12\u9474?\cf0  backend    \cf12\u9474?\cf0  default     \cf12\u9474?\cf0  N/A     \cf12\u9474?\cf0  \cf13\highlight14 fork\cf0\highlight0     \cf12\u9474?\cf0  39185    \cf12\u9474?\cf0  5m     \cf12\u9474?\cf0  31   \cf12\u9474?\cf0  \cf3 online\cf0     \cf12\u9474?\cf0  0%       \cf12\u9474?\cf0  59.1mb   \cf12\u9474?\cf0  \b ec2-user\b0  \cf12\u9474?\cf0  \cf12 disabled\cf0  \cf12\u9474?\cf1\highlight2 
+\par \cf12\highlight0\u9492?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9524?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ pm2 start app.js --name backend\cf1\highlight2 
+\par \cf6\highlight0 [PM2][ERROR] \cf0 Script already launched, add -f option to force re-execution\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo yum install nginx -y\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:52:19 ago on Mon Mar 24 00:14:00 2025.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                                   Architecture                 Version                                       Repository                         Size\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 nginx                                    \cf0  x86_64                       1:1.26.3-1.amzn2023.0.1                       amazonlinux                        33 k\cf1\highlight2 
+\par \cf0\highlight0 Installing dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 generic-logos-httpd                      \cf0  noarch                       18.0.0-12.amzn2023.0.3                        amazonlinux                        19 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gperftools-libs                          \cf0  x86_64                       2.9.1-1.amzn2023.0.3                          amazonlinux                       308 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libunwind                                \cf0  x86_64                       1.4.0-5.amzn2023.0.2                          amazonlinux                        66 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 nginx-core                               \cf0  x86_64                       1:1.26.3-1.amzn2023.0.1                       amazonlinux                       670 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 nginx-filesystem                         \cf0  noarch                       1:1.26.3-1.amzn2023.0.1                       amazonlinux                       9.6 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 nginx-mimetypes                          \cf0  noarch                       2.1.49-3.amzn2023.0.3                         amazonlinux                        21 k\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ==============================================================================================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  7 Packages\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 1.1 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 3.6 M\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 (1/7): generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch.rpm                                                                  479 kB/s |  19 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (2/7): libunwind-1.4.0-5.amzn2023.0.2.x86_64.rpm                                                                              1.4 MB/s |  66 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (3/7): gperftools-libs-2.9.1-1.amzn2023.0.3.x86_64.rpm                                                                        4.9 MB/s | 308 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (4/7): nginx-1.26.3-1.amzn2023.0.1.x86_64.rpm                                                                                 1.3 MB/s |  33 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (5/7): nginx-core-1.26.3-1.amzn2023.0.1.x86_64.rpm                                                                             22 MB/s | 670 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (6/7): nginx-filesystem-1.26.3-1.amzn2023.0.1.noarch.rpm                                                                      475 kB/s | 9.6 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (7/7): nginx-mimetypes-2.1.49-3.amzn2023.0.3.noarch.rpm                                                                       1.0 MB/s |  21 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 --------------------------------------------------------------------------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                                                                                         9.3 MB/s | 1.1 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                                                                                      1/1\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: nginx-filesystem-1:1.26.3-1.amzn2023.0.1.noarch                                                                                      1/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : nginx-filesystem-1:1.26.3-1.amzn2023.0.1.noarch                                                                                      1/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : nginx-mimetypes-2.1.49-3.amzn2023.0.3.noarch                                                                                         2/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libunwind-1.4.0-5.amzn2023.0.2.x86_64                                                                                                3/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gperftools-libs-2.9.1-1.amzn2023.0.3.x86_64                                                                                          4/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : nginx-core-1:1.26.3-1.amzn2023.0.1.x86_64                                                                                            5/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch                                                                                    6/7\cf1\highlight2 
+\par \cf0\highlight0   Installing       : nginx-1:1.26.3-1.amzn2023.0.1.x86_64                                                                                                 7/7\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: nginx-1:1.26.3-1.amzn2023.0.1.x86_64                                                                                                 7/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch                                                                                    1/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gperftools-libs-2.9.1-1.amzn2023.0.3.x86_64                                                                                          2/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libunwind-1.4.0-5.amzn2023.0.2.x86_64                                                                                                3/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : nginx-1:1.26.3-1.amzn2023.0.1.x86_64                                                                                                 4/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : nginx-core-1:1.26.3-1.amzn2023.0.1.x86_64                                                                                            5/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : nginx-filesystem-1:1.26.3-1.amzn2023.0.1.noarch                                                                                      6/7\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : nginx-mimetypes-2.1.49-3.amzn2023.0.3.noarch                                                                                         7/7\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   generic-logos-httpd-18.0.0-12.amzn2023.0.3.noarch      gperftools-libs-2.9.1-1.amzn2023.0.3.x86_64      libunwind-1.4.0-5.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   nginx-1:1.26.3-1.amzn2023.0.1.x86_64                   nginx-core-1:1.26.3-1.amzn2023.0.1.x86_64        nginx-filesystem-1:1.26.3-1.amzn2023.0.1.noarch\cf1\highlight2 
+\par \cf0\highlight0   nginx-mimetypes-2.1.49-3.amzn2023.0.3.noarch\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo nano /etc/nginx/nginx.conf\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo systemctl restart nginx\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo firewall-cmd --zone=public --add-port=80/tcp --permanent\cf1\highlight2 
+\par \cf0\highlight0 success\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo firewall-cmd --reload\cf1\highlight2 
+\par \cf0\highlight0 success\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$ sudo systemctl status nginx\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  nginx.service - The nginx HTTP and reverse proxy server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/usr/lib/systemd/system/nginx.service; \cf19 disabled\cf0 ; preset: \cf19 disabled\cf0 )\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2025-03-24 01:11:51 UTC; 38s ago\cf1\highlight2 
+\par \cf0\highlight0     Process: 40142 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 40143 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 40144 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 40145 (nginx)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 2 (limit: 1111)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 2.4M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 40ms\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/nginx.service\cf1\highlight2 
+\par \cf0\highlight0              \u9500?\u9472?\cf16 40145 "nginx: master process /usr/sbin/nginx"\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?\cf16 40146 "nginx: worker process"\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Mar 24 01:11:51 ip-172-31-8-161.ap-south-1.compute.internal systemd[1]: Starting nginx.service - The nginx HTTP and reverse proxy server...\cf1\highlight2 
+\par \cf0\highlight0 Mar 24 01:11:51 ip-172-31-8-161.ap-south-1.compute.internal nginx[40143]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\cf1\highlight2 
+\par \cf0\highlight0 Mar 24 01:11:51 ip-172-31-8-161.ap-south-1.compute.internal nginx[40143]: nginx: configuration file /etc/nginx/nginx.conf test is successful\cf1\highlight2 
+\par \cf0\highlight0 Mar 24 01:11:51 ip-172-31-8-161.ap-south-1.compute.internal systemd[1]: Started nginx.service - The nginx HTTP and reverse proxy server.\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-8-161 terraform-project]$\cf1\highlight2 
+\par \cf6\highlight0 Network error: Software caused connection abort\cf1\highlight2 
+\par 
+\par \cf12\highlight0\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\cf1\highlight2 
+\par 
+\par \cf6\highlight0 Session stopped\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf5 <Return>\cf0  to exit tab\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf5 R\cf0  to restart session\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf5 S\cf0  to save terminal output to file\cf1\highlight2 
+\par \pard\cf0\highlight0\f2\fs16 
+\par }
+ 
